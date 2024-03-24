@@ -1,0 +1,7 @@
+type ProjectData @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  titile: String!
+  skills: [String!]!
+  type: [String!]!
+  description: String!
+}
